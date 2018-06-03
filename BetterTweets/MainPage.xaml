@@ -9,6 +9,11 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Button x:Name="homeButton" Content="Home" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.472,1.832"/>
+        <Button x:Name="notificationsButton" Content="Notifications" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="messagesButton" Content="Messages" HorizontalAlignment="Left" Margin="10,299,0,0" VerticalAlignment="Top"/>
+        <ListView x:Name="timeline" HorizontalAlignment="Left" Height="980" Margin="148,0,0,0" VerticalAlignment="Center" Width="1342"/>
 
     </Grid>
 </Page>
